@@ -12,6 +12,7 @@ Uninstall: Turn off/Uninstall the module - Reboot - Delete @ /data/local/tmp/ccr
 - If simplicity is your priority and you have enough RAM, zram is easier to set up.
 
 Note: On first boot it should boot slowly because it is making zswap and uninstall method is on description. This will disable the zRam!
+
 Credits: lyb
 
 You can check if it is working using an app
