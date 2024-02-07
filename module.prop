@@ -1,5 +1,5 @@
 id=SwapMemory
 name=SwapMemory
-version=1
+version=2
 author=Ccrlll
-description=Config: 4GB Zswap - 2GB RAM Pool - zsmalloc - lz4 \nUninstall: Turn off / Uninstall module - Reboot - Delete @ /data/local/tmp/ccrlll \nCredits: lyb
+description=Config: 8GB Zswap - 2GB RAM Pool - zsmalloc - lz4 \nUninstall: Turn off / Uninstall module - Reboot - Delete @ /data/local/tmp/ccrlll \nCredits: lyb

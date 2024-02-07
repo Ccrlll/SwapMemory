@@ -7,7 +7,7 @@ param="/sys/module/zswap/parameters"
 memInfo=$(grep MemTotal /proc/meminfo | awk '{print $2}')
 ramPool=$(expr 2048000 \* 100 / $memInfo)
 
-[[ -f "$zswap/zswap" ]] || (dd if=/dev/zero of=$zswap/zswap bs=1024 count=4194304 && mkswap $zswap/zswap)
+[[ -f "$zswap/zswap" ]] || (dd if=/dev/zero of=$zswap/zswap bs=1024 count=8388608 && mkswap $zswap/zswap)
 
 echo zsmalloc > $param/zpool
 echo lz4 > $param/compressor
