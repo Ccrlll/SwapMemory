@@ -11,7 +11,7 @@ Uninstall: Turn off/Uninstall the module - Reboot - Delete @ /data/local/tmp/ccr
 - If you have an SSD and want to avoid using its limited write cycles, zram can be a good alternative.
 - If simplicity is your priority and you have enough RAM, zram is easier to set up.
 
-Note: On first boot it should boot slowly because it is making zswap and uninstall method is on description. This will disable the zRam!
+Note: On first boot it should boot slowly because it is making zswap and uninstall method is on description. This will disable the zRam! Support only on zswap kernel
 
 Credits: lyb
 
